@@ -27,13 +27,13 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         // 1. Inisialisasi Views
-        val etNim = findViewById<TextInputEditText>(R.id.etNim)
-        val etUsername = findViewById<TextInputEditText>(R.id.etUsername)
-        val etAge = findViewById<TextInputEditText>(R.id.etAge)
-        val etEmail = findViewById<TextInputEditText>(R.id.etEmail)
+        val etNim = findViewById<TextInputEditText>(R.id.tvTampilNim)
+        val etUsername = findViewById<TextInputEditText>(R.id.tvTampilUsername)
+        val etAge = findViewById<TextInputEditText>(R.id.tvTampilAge)
+        val etEmail = findViewById<TextInputEditText>(R.id.tvTampilEmail)
         val etPassword = findViewById<TextInputEditText>(R.id.etPassword)
         val etConfirmPassword = findViewById<TextInputEditText>(R.id.etConfirmPassword)
-        val rgGender = findViewById<RadioGroup>(R.id.rgGender)
+        val rgGender = findViewById<RadioGroup>(R.id.tvTampilJenisKelamin)
         val btnSubmit = findViewById<Button>(R.id.btnSubmit)
 
         // 2. Set Listener untuk tombol Submit
